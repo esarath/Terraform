@@ -1,0 +1,8 @@
+resource_group_name         = "a0jx-dev-rg"
+resource_group_location     = "East US"
+virtual_network_name        = "a0jx-dev-vnet1"
+subnet_name                 = "a0jx-vnet1-snet1"
+public_ip_name              = "a0jx-dev-pip"
+network_security_group_name = "a0jx-dev-nsg"
+network_interface_name      = "a0jx-dev-nic"
+linux_virtual_machine_name  = "a0jx-dev-cicdvm"
