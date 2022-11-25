@@ -1,3 +1,4 @@
+// Store Terraform state in Azure Storage
 terraform {
   backend "azurerm" {
     resource_group_name  = "cloud-shell-storage-centralindia"
