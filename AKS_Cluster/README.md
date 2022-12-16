@@ -31,7 +31,7 @@ Let's create following tf files using Visual studio Code:
 5. output.tf - Export some data to output file
 Already available above configuration files in this folder, please refer to understand.
 
-Run terraform commands:
+>>> Run terraform commands:
 1. terraform init
 2. terraform fmt
 3. terraform validate
@@ -39,7 +39,11 @@ Run terraform commands:
 5. terraform apply or terraform apply -auto-approve
 6. terraform state list >>> you will see created resource list
 
+### To verify if worker nodes are created, use the kubectl get nodes command to return a list of the cluster nodes and there status.
+$ kubectl get nodes | kubectl get nodes -o wide  ##You will see worker nodes with health status ready.
 
+### Deploy Nginx App
+$ kubectl create -f 
 
 
 ===========================Thank you===========================
