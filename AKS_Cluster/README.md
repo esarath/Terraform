@@ -44,7 +44,8 @@ $ kubectl get nodes | kubectl get nodes -o wide  ##You will see worker nodes wit
 
 ### Deploy Nginx App
 $ kubectl get pods
-$ kubectl create -f https://github.com/esarath/Terraform/blob/main/AKS_Cluster/nginx-deployment.yaml
+
+$ kubectl create -f https://raw.githubusercontent.com/kubernetes/website/master/content/en/examples/controllers/nginx-deployment.yaml
 
 Once the deployment is created, use kubectl to check on the deployments by running this command: 
 $ kubectl get deployments
