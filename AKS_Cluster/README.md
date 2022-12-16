@@ -31,4 +31,15 @@ Let's create following tf files using Visual studio Code:
 5. output.tf - Export some data to output file
 Already available above configuration files in this folder, please refer to understand.
 
+Run terraform commands:
+1. terraform init
+2. terraform fmt
+3. terraform validate
+4. terraform plan -auto-approve
+5. terraform apply or terraform apply -auto-approve
+6. terraform state list >>> you will see created resource list
+
+
+
+
 ===========================Thank you===========================
