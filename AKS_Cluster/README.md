@@ -43,7 +43,18 @@ Already available above configuration files in this folder, please refer to unde
 $ kubectl get nodes | kubectl get nodes -o wide  ##You will see worker nodes with health status ready.
 
 ### Deploy Nginx App
-$ kubectl create -f 
+$ kubectl get pods
+$ kubectl create -f https://github.com/esarath/Terraform/blob/main/AKS_Cluster/nginx-deployment.yaml
+
+Once the deployment is created, use kubectl to check on the deployments by running this command: 
+$ kubectl get deployments
+$ kubectl get pods
+
+>>> Perform cleanup by deleting the AKS cluster
+
+### To avoid Azure charges in test environment, you should clean up unneeded resources. When the cluster is no longer needed, use terraform destroy command to remove the resource group, AKS cluster service, and all related resources. 
+
+$ terraform destroy --auto-approve
 
 
 ===========================Thank you===========================
