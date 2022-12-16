@@ -1,4 +1,4 @@
-# Deployment of nginx application 
+## Deployment of nginx application 
 
 apiVersion: apps/v1
 kind: Deployment
