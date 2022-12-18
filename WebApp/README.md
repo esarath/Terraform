@@ -17,10 +17,15 @@ Azure WebApp must be associated with an App Service Plan as it specifies the com
 And add code for creating app service. Finally, the terraform file looks like and refer "app-service-main.tf"
 
 We should run the the below terraform commands for deployment: 
+
 $ terraform init
+
 $ terraform fmt
+
 $ terraform validate
+
 $ terraform plan
+
 $ terraform apply
 
 Finally, We can verify the app service created in the specified app service plan and resource group by checking in the Azure portal.
