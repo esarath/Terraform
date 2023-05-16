@@ -1,0 +1,7 @@
+Provision an AKS Cluster (Azure)
+================================
+https://developer.hashicorp.com/terraform/tutorials/kubernetes/aks
+
+Manage Kubernetes Resources via Terraform
+======================================
+https://developer.hashicorp.com/terraform/tutorials/use-case/kubernetes-provider
